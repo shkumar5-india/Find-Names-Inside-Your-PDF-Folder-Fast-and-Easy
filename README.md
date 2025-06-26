@@ -28,3 +28,8 @@ This Python tool scans PDF files using Optical Character Recognition (OCR) to de
 Install the required packages:
 
 pip install pytesseract pdf2image Pillow tqdm
+
+### Output
+
+![222](https://github.com/user-attachments/assets/6b24925e-74be-408c-a945-a3148780b7d0)
+![Project](https://github.com/user-attachments/assets/3af5ca23-798a-4aa8-80fe-16697450eeaa)
