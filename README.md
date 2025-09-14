@@ -1,23 +1,23 @@
 # Find-Names-Inside-Your-PDF-Folder-Fast-and-Easy
 Easily search for names or text inside a folder full of PDFs—even scanned ones. This tool uses OCR to read each PDF page and finds your search term, then copies matching PDFs to a separate folder for quick review. Perfect for handling lots of documents without manual searching.
-# 🔍 PDF OCR Name Search Tool
+# PDF OCR Name Search Tool
 
 This Python tool scans PDF files using Optical Character Recognition (OCR) to detect if a specific name appears in their content. If a match is found, the corresponding PDF is copied to a designated folder.
 
 ---
 
-## 📂 Features
+##  Features
 
-- ✅ Converts PDF pages to images using `pdf2image`
-- 🧠 Extracts text from images using `pytesseract` (Tesseract OCR)
-- 🚀 Utilizes multiprocessing (`ProcessPoolExecutor`) for faster processing
-- 🔎 Performs case-insensitive text search
-- 📁 Copies matched PDFs into the `matched_pdfs` folder
-- 🧹 Cleans up temporary image files after processing
+-  Converts PDF pages to images using `pdf2image`
+-  Extracts text from images using `pytesseract` (Tesseract OCR)
+-  Utilizes multiprocessing (`ProcessPoolExecutor`) for faster processing
+-  Performs case-insensitive text search
+-  Copies matched PDFs into the `matched_pdfs` folder
+-  Cleans up temporary image files after processing
 
 ---
 
-## 🧰 Requirements
+##  Requirements
 
 - Python 3.6 or newer
 - [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
